@@ -7,162 +7,126 @@ var clicker = {
 			cost:10,
 			rate:0.5,
 			hasUn:false,
-			unlockAt:15,
-			name:"FastDraw Plugin",
-			description:"Wanna draw? Wanna draw fast? Like really fast? That's what this plugin is for. Drawing fast. FastDraw."
+			unlockAt:15
 		},
 		monkey: {
 			amount:0,
 			cost:100,
 			rate:1,
 			hasUn:false,
-			unlockAt:100,
-			name:"A Bunch of Monkeys",
-			description:"You know that theorem about an infinite amount of monkeys with an infinite amount of typewriters? Let's put those monkeys to work on something more productive."
+			unlockAt:100
 		},
 		osm: {
 			amount:0,
 			cost:1100,
 			rate:11,
 			hasUn:false,
-			unlockAt:1000,
-			name:"Copy From OpenStreetMap",
-			description:"Why draw the nodes yourself when you can use the hard work of others?"
+			unlockAt:1000
 		},
 		idcollect: {
 			amount:0,
 			cost:12500,
 			rate:45,
 			hasUn:false,
-			unlockAt:10000,
-			name:"Node ID Collector",
-			description:"Tonnes of nodes get deleted all the time. What if you could reverse that process, and make those nodes your own?"
+			unlockAt:10000
 		},
 		discord: {
 			amount:0,
 			cost:129800,
 			rate:256,
 			hasUn:false,
-			unlockAt:100000,
-			name:"Beg for Nodes on Discord",
-			description:"Ok, listen. You clearly need nodes more than they do. Just spam every channel until someone draws some nodes for you. It'll be fine, I promise."
+			unlockAt:100000
 		},
 		sock: {
 			amount:0,
 			cost:1280000,
 			rate:1512,
 			hasUn:false,
-			unlockAt:1000000,
-			name:"Sockpuppet Accounts",
-			description:"You're drawing lots of nodes on your own, but what if there were more 'you'? Just what this site needs."
+			unlockAt:1000000
 		},
 		hostile: {
 			amount:0,
 			cost:19800000,
 			rate:8900,
 			hasUn:false,
-			unlockAt:15000000,
-			name:"Hostile Takeover",
-			description:"By hacking into every account on OpenGeofiction, every node ever made on the site now belongs to you. The admins cannot stop you; their nodes are also yours."
+			unlockAt:15000000
 		},
 		stonks: {
 			amount:0,
 			cost:401000000,
 			rate:58000,
 			hasUn:false,
-			unlockAt:300000000,
-			name:"Invest on the Node Market",
-			description:"Time to invest your hard earned nodes into something worthwhile... making more nodes!"
+			unlockAt:300000000
 		},
 		quantum: {
 			amount:0,
 			cost:5500000000,
 			rate:300000,
 			hasUn:false,
-			unlockAt:4500000000,
-			name:"Quantum Computing",
-			description:"With your lithium-ion powered, Turing complete, Ember-brand Quantum Computer, your node drawing speeds are off the charts!"
+			unlockAt:4500000000
 		},
 		neural: {
 			amount:0,
 			cost:76000000000,
 			rate:2100000,
 			hasUn:false,
-			unlockAt:70000000000,
-			name:"Neural Node Network",
-			description:"Your army of computers are continously developing new algorithms to more efficiently make nodes. You're gonna need a bigger CPU fan."
+			unlockAt:70000000000
 		},
 		mstr: {
 			amount:0,
 			cost:1234000000000,
 			rate:12340000,
 			hasUn:false,
-			unlockAt:1000000000000,
-			name:"Self-replicating Procedural Low-Effort Grid",
-			description:"Through the power of quantum computing and artificial intelligence, your LEGs are now sentient. Grid will consume all. Hail grid."
+			unlockAt:1000000000000
 		},
 		collider: {
 			amount:0,
 			cost:14300000000000,
 			rate:85000000,
 			hasUn:false,
-			unlockAt:10000000000000,
-			name:"Large Node Collider",
-			description:"Accelerate billions of nodes to the speed of light and smash them into each other to produce new, exotic nodes. Oh, the wonders of technology!"
+			unlockAt:10000000000000
 		},
 		dyson: {
 			amount:0,
 			cost:167000000000000,
 			rate:555000000,
 			hasUn:false,
-			unlockAt:160000000000000,
-			name:"Dyson Node Sphere",
-			description:"Harness the power of the sun to generate more nodes. Blocking all sunlight in the world probably breaks some AN conventions but whatever."
+			unlockAt:160000000000000
 		},
 		hawking: {
 			amount:0,
 			cost:3120000000000000,
 			rate:3100000000,
 			hasUn:false,
-			unlockAt:3000000000000000,
-			name:"Hawking Radiation Decompression Rig",
-			description:"All that trash that black holes keep throwing out... can we make nodes out of that somehow?"
+			unlockAt:3000000000000000
 		},
 		multiverse: {
 			amount:0,
 			cost:22000000000000000,
 			rate:23000000000,
 			hasUn:false,
-			unlockAt:20000000000000000,
-			name:"Multiversal Node Extractor",
-			description:"If there is an infinite amount of parrallel universes, that means there is an infinite amount of nodes out there. And they can all be yours."
+			unlockAt:20000000000000000
 		},
 		paradox: {
 			amount:0,
 			cost:312000000000000000,
 			rate:178000000000,
 			hasUn:false,
-			unlockAt:300000000000000000,
-			name:"Self-containing Relation Paradox",
-			description:"We heard you like relations so we put a relation in your relation. We may have also destabilized reality a bit..."
+			unlockAt:300000000000000000
 		},
 		cthulhu: {
 			amount:0,
 			cost:69000000000000000000,
 			rate:1500000000000,
 			hasUn:false,
-			unlockAt:60000000000000000000,
-			name:"Strike Deal with the Great Old Ones",
-			description:"Sure, you may have damned your soul for eternity, but now you're making more nodes than you could ever imagine. Seems like a great deal to me!"
+			unlockAt:60000000000000000000
 		},
 		ascend: {
 			amount:0,
 			cost:11000000000000000000000,
 			rate:11000000000000,
 			hasUn:false,
-			unlockAt:10000000000000000000000,
-			name:"A s c e n d",
-			description:"With the power of trillions of nodes, you have ascended to godhood. The laws of physics are at your command."
+			unlockAt:10000000000000000000000
 		}
 	},
 	achievements:[
@@ -182,16 +146,91 @@ var clicker = {
 		{req:"clicker.upgrades.monkey.amount>19",gotten:false,text:"Woah, where did all these monkeys come from?!"},
 		{req:"clicker.upgrades.discord.amount>9",gotten:false,text:"Tito has banned you from OGFC for one week due to spamming 'gib nodes' 1299 times."},
 		{req:"clicker.upgrades.mstr.amount>0",gotten:false,text:"You have made your first LEG. Hail Grid!"},
-		{req:"clicker.upgrades.sock.amount>0",gotten:false,text:"You have made your first sockpuppet account. It's called 'misterlean123'"},
-		{req:"clicker.upgrades.sock.amount>9",gotten:false,text:"You have made 10 sockpuppet accounts. The admins are starting to suspect something is up..."},
+		{req:"clicker.upgrades.sock.amount>9",gotten:false,text:"You have made 10 sockpuppet accounts called 'misterlean'. The admins are starting to suspect something is up..."},
 		{req:"clicker.upgrades.mstr.amount>9",gotten:false,text:"The entire world is now Mergany. Nothing but grid for miles and miles."},
 		{req:"clicker.upgrades.cthulhu.amount>0",gotten:false,text:"A thousand years of darkness has begun. You have doomed humanity."},
-		{req:"clicker.upgrades.ascend.amount>0",gotten:false,text:"You have ascended. As you turn every single thing in existence into nodes, the universe falls silent. You have all the nodes in the world... but at what cost? The endless suffering you have caused, billions upon billions dead, and for what? A bunch of nodes? Was it worth it? You have won the game."}
+		{req:"clicker.upgrades.ascend.amount>0",gotten:false,text:"You have ascended. As you turn every single thing in existence into nodes, the universe falls silent..."}
 	]
-	
 };
 var delay = 0;
 var rate = 0;
+
+var textLines= {
+	upgrades: {
+		fastdraw: {
+			name:"FastDraw Plugin",
+			description:"Wanna draw? Wanna draw fast? Like really fast? That's what this plugin is for. Drawing fast. FastDraw."
+		},
+		monkey: {
+			name:"A Bunch of Monkeys",
+			description:"You know that theorem about an infinite amount of monkeys with an infinite amount of typewriters? Let's put those monkeys to work on something more productive."
+		},
+		osm: {
+			name:"Copy From OpenStreetMap",
+			description:"Why draw the nodes yourself when you can use the hard work of others?"
+		},
+		idcollect: {
+			name:"Node ID Collector",
+			description:"Tonnes of nodes get deleted all the time. What if you could reverse that process, and make those nodes your own?"
+		},
+		discord: {
+			name:"Beg for Nodes on Discord",
+			description:"Ok, listen. You clearly need nodes more than they do. Just spam every channel until someone draws some nodes for you. It'll be fine, I promise."
+		},
+		sock: {
+			name:"Sockpuppet Accounts",
+			description:"You're drawing lots of nodes on your own, but what if there were more 'you'? Just what this site needs."
+		},
+		hostile: {
+			name:"Hostile Takeover",
+			description:"By hacking into every account on OpenGeofiction, every node ever made on the site now belongs to you. The admins cannot stop you; their nodes are also yours."
+		},
+		stonks: {
+			name:"Invest on the Node Market",
+			description:"Time to invest your hard earned nodes into something worthwhile... making more nodes!"
+		},
+		quantum: {
+			name:"Quantum Computing",
+			description:"With your lithium-ion powered, Turing complete, Ember-brand Quantum Computer, your node drawing speeds are off the charts!"
+		},
+		neural: {
+			name:"Neural Node Network",
+			description:"Your army of computers are continously developing new algorithms to more efficiently make nodes. You're gonna need a bigger CPU fan."
+		},
+		mstr: {
+			name:"Self-replicating Procedural Low-Effort Grid",
+			description:"Through the power of quantum computing and artificial intelligence, your LEGs are now sentient. Grid will consume all. Hail grid."
+		},
+		collider: {
+			name:"Large Node Collider",
+			description:"Accelerate billions of nodes to the speed of light and smash them into each other to produce new, exotic nodes. Oh, the wonders of technology!"
+		},
+		dyson: {
+			name:"Dyson Node Sphere",
+			description:"Harness the power of the sun to generate more nodes. Blocking all sunlight in the world probably breaks some AN conventions but whatever."
+		},
+		hawking: {
+			name:"Hawking Radiation Decompression Rig",
+			description:"All that trash that black holes keep throwing out... can we make nodes out of that somehow?"
+		},
+		multiverse: {
+			name:"Multiversal Node Extractor",
+			description:"If there is an infinite amount of parrallel universes, that means there is an infinite amount of nodes out there. And they can all be yours."
+		},
+		paradox: {
+			name:"Self-containing Relation Paradox",
+			description:"We heard you like relations so we put a relation in your relation. We may have also destabilized reality a bit..."
+		},
+		cthulhu: {
+			name:"Strike Deal with the Great Old Ones",
+			description:"Sure, you may have damned your soul for eternity, but now you're making more nodes than you could ever imagine. Seems like a great deal to me!"
+		},
+		ascend: {
+			name:"A s c e n d",
+			description:"With the power of trillions of nodes, you have ascended to godhood. The laws of physics are at your command."
+		}
+	},
+}
 
 function thing_clicked(thing){
 	if(clicker.upgrades[thing].cost <= clicker.nodes){
@@ -209,9 +248,9 @@ function update_upgrades(){
 		if(clicker.upgrades[i].hasUn){
 			document.querySelector("#upgrades").innerHTML+= `
 				<br> 
-				<h4>${clicker.upgrades[i].name}</h4> <br>
+				<h4>${textLines.upgrades[i].name}</h4> <br>
 				<button onclick="thing_clicked('${i}')">Buy</button> Cost: ${numberformat.format(clicker.upgrades[i].cost)}. +${clicker.upgrades[i].rate} nodes per second. You have ${numberformat.format(clicker.upgrades[i].amount)}. <br>
-				<p class="upgradeDesc" >${clicker.upgrades[i].description}</p>
+				<p class="upgradeDesc" >${textLines.upgrades[i].description}</p>
 				<br>
 			`;
 			d+= clicker.upgrades[i].rate*clicker.upgrades[i].amount;
@@ -227,8 +266,6 @@ function update(){
 				clickerLoad.upgrades[i] = clicker.upgrades[i];
 			}
 		}
-		clicker = clickerLoad;
-	
 		for(i in clicker.achievements){
 			if(clickerLoad.achievements[i] == null || clicker.achievements[i].text != clickerLoad.achievements[i].text){
 				clickerLoad.achievements[i] = clicker.achievements[i];
@@ -260,7 +297,7 @@ function update(){
 				`;
 			}
 		}
-		document.querySelector("#nodes").innerHTML = "You have " +numberformat.format( Number(String(clicker.nodes).split(".")[0])) + " nodes. (" + Number(String(clicker.nodes)) + ")";
+		document.querySelector("#nodes").innerHTML = "You have " +numberformat.format( Number(String(clicker.nodes).split(".")[0])) + " nodes. (" + Number(String(clicker.nodes).split(".")[0]) + ")";
 		document.querySelector("#nodeRate").innerHTML = "You are drawing " +numberformat.format( Number(String(rate))) + " nodes per second. (" + Number(String(rate)) + ")";
 		for(i in clicker.upgrades){
 			if(!clicker.upgrades[i].hasUn && clicker.upgrades[i].unlockAt <= clicker.nodes){
