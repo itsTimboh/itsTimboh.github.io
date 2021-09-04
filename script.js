@@ -244,7 +244,7 @@ function update(){
 		lastSaveDate = Math.round(lastSaveDate / 1000);
 		if(lastSaveDate / 60 >= 1){
 			clicker.nodes += lastSaveDate * rate / 1.8;
-			document.querySelector("#achievements").innerHTML += `<br>While you were gone...<br>you drew ${numberformat.format(lastSaveDate*rate/1.8)} nodes!`
+			document.querySelector("#achievements").innerHTML += `<br>While you were gone...<br>you drew ${numberformat.format(lastSaveDate*rate/1.8)} nodes!`;
 		}
 	}
 	setInterval(() => {
